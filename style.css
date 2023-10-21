@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat';
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/sfondo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.hero h1, h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colonna50{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.colonna50 ul {
+    padding: 0px;
+}
+
+.colonna50 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.tabella{
+    padding: 5px;
+    margin: 5px;
+}
+
+.tabella th{
+    background-color: rgba(139, 0, 0, 0.493);
+}
+
+.tabella th,td{
+    border: 1px solid black;
+}
+
+.footer{
+    background-color: rgb(195, 193, 193);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-row p{
+    margin: 4px;
+}
